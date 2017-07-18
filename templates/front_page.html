@@ -1,0 +1,28 @@
+$def with (Front_Page)
+<html>
+  <script>
+
+  function init(){
+
+    alert("Hello Rob! Testing Javascript");
+
+  }
+
+  init();
+
+  </script>
+  <p><font face="verdana"><a href="/whotheyare">Who They Are</a><font size="4"> | </font><a href="/rehearsaldinner">The Rehearsal Dinner</a><font size="4"> | </font><a href="/wedding">The Ceremony</a><font size="4"> | </font><a href="/hotel">Hotel</a><font size="4"> | </font><a href="/bridesmaids">The Bridesmaids</a>          <font size="4"> | </font><a href="/groomsmen">The Groomsmen</a><font size="4"> | </font><a href="/registry">The Registry</font></a>
+
+  <img src="static/ballcap.jpg" alt="Smiley face">
+  <font face="Baskerville ">
+  <h1>Meg and Andy</h1>
+  <h4>October 14, 2017 | Topsfield, MA</h4>
+  <h4>$Front_Page.until days to go!</h4>
+
+  </font>
+
+  <!-- height="420" width="420"-->
+  <h6><font face="verdana">$Front_Page.body
+  </font>
+  </h6>
+</html>

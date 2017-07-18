@@ -1,0 +1,18 @@
+$def with (greeting)
+
+<html>
+    <head>
+        <title>Rob's Site</title>
+    </head>
+<body>
+<p>
+$if greeting:
+    You submitted <em style="color: green; font-size: 2em;">$greeting</em>.
+$else:
+    <em>Hello</em>, world!
+</p>
+  <p>
+<a href="http://localhost:3030/music"> Put in a new song and artist.</a>
+</p>
+</body>
+</html>
